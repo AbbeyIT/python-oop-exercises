@@ -14,14 +14,14 @@ class Student:
 listOfStudents = []
 
 while True: 
-    print("\n")
+    print()
     name = input("Name   : ")
     course = input("Course : ")
     year = input("Year   : ")
     section = input("Section: ")
     s = Student(name, course, year, section)
     listOfStudents.append(s)
-    print("\n")
+    print()
     choice = input("Create another student?[Y/N]: ")
     if choice == 'Y' or choice == 'y': pass
     else: break
